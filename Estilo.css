@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Glory';
+    src: url(fontes/Glory/Glory-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Glory', sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    margin: 0px -20px;
+    background-color: #85c7f2;
+    padding-bottom: -2px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 10px 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    transition: .25s;
+}
+
+li a:hover {
+    background-color: white;
+    color: #85c7f2;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+
+}
+
+main img#imagemFOda {
+    width: 100%;
+}
+
+main div {
+    margin: 10px;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+iframe {
+    text-align: center;
+}
+
+section#imagens {
+    text-align: center;
+    margin: 10px;
+}
+
+img#imgHistoria {
+    width: 100%;
+}
