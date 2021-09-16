@@ -10,21 +10,41 @@
 </head>
 <body>
     <header>
-        <img src="Imagens/Logo.png" alt="Logo" width="60">
-        <img src="Imagens/Nome.png" alt="MEDCARDIO" width="200">
+        <a href="index.html">
+            <div id="apresentacao">
+                <img src="Imagens/Logo.png" alt="">
+                <h1>MedCardio</h1>
+            </div>
+        </a>
         <nav>
             <ul>
-                <li><a href="Index.html">Inicio</a></li>
-                <li><a href="Especialidades.html">Especialidades</a></li>
-                <li><a href="Historia.html">Historia</a></li>
+                <a href="Index.html"><li>Início</li></a>
+                <a href="Especialidades.html"><li>Especialidades</li></a>
+                <a href="Historia.html"><li>História</li></a>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="imagens">
-            <img src="Imagens/cardio.jpg" alt="" width="500px"><br>
-            <img src="Imagens/pediatria.jpg" alt="" width="200px">
-            <img src="Imagens/Cerebrofoda.jpg" alt="" width="295px">
+        <section id="eita">
+            <h1 class="tituloPrincipal">Especialidades</h1>
+            <div id="imagensfodas">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="Imagens/cardio-pq.png">
+                    <img  class="img" src="Imagens/cardio.jpg" alt="">
+                </picture><br>
+                <picture>
+                    <source media="(max-width: )" srcset="Imagens/pediatria-pq.png">
+                    <img id="pediatria" class="img2" src="Imagens/pediatria.jpg" alt="">
+                </picture>
+                <picture>
+                    <source media="(max-width: )" srcset="Imagens/Cerebrofoda-pq.png">
+                    <img  class="img2" src="Imagens/Cerebrofoda.jpg" alt="">
+                </picture>
+            </div>
         </section>
     </main>
+    <footer>
+        <p>Site massa kk Da like</p>
+    </footer>
 </body>
+</html>

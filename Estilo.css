@@ -5,70 +5,125 @@
     font-weight: normal;
 }
 
-h2 {
-    font-family: 'Glory', sans-serif;
+:root {
+    --cor01: #d1d1d1;
+    --cor02: #dbdbdb;
+    --cor03: #85c7f2;
+    --cor04: #636363;
+    --cor05: #4c4c4c;
+
+    --fonte: 'Glory', cursive;
 }
 
 p {
-    text-align: justify;
-    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
 }
 
-nav {
-    margin: 0px -20px;
-    background-color: #85c7f2;
-    padding-bottom: -2px;
+h1 {
+    padding-top: 10px;
+    font-family: var(--fonte);
+    text-shadow: 1px 1px 1px black;
 }
 
-ul {
-    list-style: none;
+.tituloPrincipal {
+    padding: 50px 0px 30px 0px;
+}
+
+h2 {
+    font-family: var(--fonte);
+    text-shadow: 1px 1px 1px black;
+}
+
+html {
+    background-image: linear-gradient(to bottom, var(--cor03) 100px, white 900px);
+}
+/* Cabecalho */
+
+header {
+    background-image: linear-gradient(to bottom, white, var(--cor03));
+    margin: -10px -10px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.274);
+}
+
+#apresentacao {
     display: flex;
 }
 
-li {
-    margin: 10px 30px;
+#apresentacao h1:hover {
+    text-decoration: underline;
 }
 
-li a {
+a {
     text-decoration: none;
-    color: white;
+    color: var(--cor05);
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.274);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0px 10px 10px 10px;
     padding: 10px 30px;
+    color: white;
     transition: .25s;
 }
 
-li a:hover {
+li:hover {
     background-color: white;
-    color: #85c7f2;
+    color: var(--cor03);
 }
+
+/* Conteudo */
 
 main {
-    width: 1200px;
-    margin: auto;
-
+    margin: -16px auto auto auto;
+    max-width: 1200px;
+    min-width: 300px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.452);
+    background-color: white;
 }
 
-main img#imagemFOda {
+section {
+    margin: 10px;
+}
+
+#equipe {
     width: 100%;
 }
 
-main div {
-    margin: 10px;
-}
-
-figcaption {
+#eita {
     text-align: center;
-    margin-bottom: 50px;
+    width: 90%;
+    margin: auto;
 }
 
-iframe {
+.img {
+    width: 100%;
+}
+
+.img2 {
+    width: 49.5%;
+}
+
+#imgHistoria {
+    width: 100%;
+}
+
+/* rodape */
+
+footer {
     text-align: center;
+    background-color: var(--cor05);
+    color: var(--cor02);
+    margin: 30px -10px -20px -10px;
+    padding: 10px 0px;
 }
 
-section#imagens {
-    text-align: center;
-    margin: 10px;
-}
-
-img#imgHistoria {
+#img1 {
     width: 100%;
 }
